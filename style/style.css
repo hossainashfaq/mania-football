@@ -320,6 +320,7 @@ footer .footer-menu p {
 
 }
 
+/* style for tab */
 @media screen and (min-width: 580px) and (max-width: 992px) {
 
     .cover {
@@ -385,7 +386,7 @@ footer .footer-menu p {
     }
 
     footer {
-        margin: 0;
+        margin-top: 0;
     }
 
     footer .comp-name h3 {
@@ -394,13 +395,18 @@ footer .footer-menu p {
     }
 
     footer hr {
+        /* width: 88%; */
         width: 734px;
         margin-bottom: 25px;
     }
 
     footer .footer-menu {
-        width: 56%;
-        display: flex;
+        /* width: 56%; */
+        width: 470px;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-items: center;
+        margin-bottom: 25px;
     }
 
     footer .footer-menu .goal-app {
