@@ -237,6 +237,7 @@ footer .footer-menu p {
     margin: 0 12px;
 }
 
+/* Style for mobile */
 @media screen and (max-width: 580px) {
 
     .cover {
@@ -287,6 +288,7 @@ footer .footer-menu p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media screen and (min-width: 580px) and (max-width: 992px) {
