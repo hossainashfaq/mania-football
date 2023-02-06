@@ -339,4 +339,21 @@ footer .footer-menu p {
         display: none;
     }
 
+    .view-all {
+        display: inline-block;
+        margin: 50px;
+    }
+
+    .view-all a {
+        background-color: #FEC310;
+        color: white;
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    footer {
+        margin: 0;
+    }
 }
