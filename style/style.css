@@ -358,4 +358,43 @@ footer .footer-menu p {
     footer {
         margin: 0;
     }
+
+    footer .comp-name h3 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    footer hr {
+        width: 734px;
+        margin-bottom: 25px;
+    }
+
+    footer .footer-menu {
+        width: 56%;
+        display: flex;
+    }
+
+    footer .footer-menu .goal-app {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-content: right;
+    }
+
+    footer .footer-menu .goal-app p {
+        margin-right: 7px;
+    }
+
+    footer .footer-menu .goal-live {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-content: left;
+    }
+
+    footer .footer-menu .goal-live p {
+        margin-left: 7px;
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+    }
 }
